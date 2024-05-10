@@ -5,7 +5,7 @@ export const VagaLi = styled.li`
   background-color: var(--cor-secundaria);
   color: var(--cor-principal);
   padding: 16px;
-  transition: all ease .3s; /* Inserted spaces here */
+  transition: all ease .3s;
   border-radius: 8px;
 
   :hover {
@@ -40,6 +40,5 @@ export const VagaLink = styled.a`
 
   @media (max-width: 768px) {
     display: block;
-  }
+}
 `
-
