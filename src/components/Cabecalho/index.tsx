@@ -1,9 +1,9 @@
 import { Header } from './styles'
 
 const Cabecalho = () => (
-  <header>
+  <Header>
     <h1>EBAC Jobs</h1>
-  </header>
+  </Header>
 )
 
 export default Cabecalho
