@@ -5,7 +5,7 @@ export const VagaLi = styled.li`
   background-color: var(--cor-secundaria);
   color: var(--cor-principal);
   padding: 16px;
-  transition: all ease .3s;
+  transition: all ease.3s;
   border-radius: 8px;
 
   :hover {
