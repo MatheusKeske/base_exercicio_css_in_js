@@ -2,7 +2,7 @@ import Header from './components/Cabecalho'
 import Hero from './components/Hero'
 import ListaVagas from './containers/ListaVagas'
 
-import { EstiloGlobal, Container } from './styles'
+import EstiloGlobal from './styles'
 
 function App() {
   return (
@@ -10,9 +10,9 @@ function App() {
       <EstiloGlobal />
       <Header />
       <Hero />
-      <Container>
+      <div className="container">
         <ListaVagas />
-      </Container>
+      </div>
     </>
   )
 }

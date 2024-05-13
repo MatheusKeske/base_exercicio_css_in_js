@@ -1,17 +1,12 @@
 import styled from 'styled-components'
 
-export const FormVaga = styled.form`
+export const Form = styled.form`
   display: grid;
   grid-template-columns: 1fr auto;
   background-color: var(--cor-secundaria);
   padding: 32px;
   border-radius: 12px;
   margin-top: 40px;
-
-  input {
-    padding: 0 16px;
-    outline-color: var(--cor-principal);
-  }
 `
 
 export const BtnPesquisar = styled.button`
@@ -23,4 +18,9 @@ export const BtnPesquisar = styled.button`
   color: var(--cor-secundaria);
   margin-left: 8px;
   cursor: pointer;
+`
+
+export const Campo = styled.input`
+  padding: 0 16px;
+  outline-color: var(--cor-principal);
 `
